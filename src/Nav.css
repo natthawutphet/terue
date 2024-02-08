@@ -1,0 +1,61 @@
+#imge img {
+    width: 100%;
+}
+
+footer {
+    background-color: aliceblue;
+
+  
+}
+
+.box {
+    display: flex;
+    width: 100%;
+
+}
+
+.tel {
+    width: 50%;
+    background-color: rgb(252, 251, 251);
+    padding: 10px;
+}
+.line {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #box {
+        display: flex;
+    }
+
+    .box {
+        display: flex;
+        width: 100%;
+    
+    }
+    
+    .tel {
+        width: 50%;
+        background-color: rgb(252, 251, 251);
+        padding: 10px;
+    }
+    .line {
+        width: 50%;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+    }
